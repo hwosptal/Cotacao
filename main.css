@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	margin-top: 30px;
+	background: #161618; 
+	color: #fff;
+	font-family: rubik, 'sans-serif';
+}
+.items-container {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	border-top: 3px solid #0f5579;
+    border-left: 3px solid #0f5579;
+    border-right: 3px solid #0f5579;
+    border-bottom: 3px solid #0f5579;
+	border-radius: 12px;
+	font-size: 20px;
+	width: 500px;
+	padding: 28px 38px;
+	height: 340px;
+	background: #202020;
+}
+#cotacao {
+	margin-top: 19px;
+	margin-bottom: 20px;
+}
+#titulo-conversao {
+	font-size: 22px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.titulo {
+	text-align: center;
+	padding: 28px;
+}
+.input {
+	background: #393939;
+	border: 1px solid #393939;
+	box-shadow: 1px 5px 10px #000;
+	border-radius: 12px;
+	padding: 13px;
+	color: #fff;
+	font-family: rubik, 'sans-serif';
+}
+.input-container {
+	padding-bottom: 25px;
+}
+.items {
+	display: inline-block;
+	float: left;
+	margin-left: 40px;
+} 
+#ETH {
+	margin-top: -19px;
+}
+
+/* resultado e class erro do input */
+#textoResultado {
+	margin-top:100px;
+}
+#textoErro {
+	margin-top: 30px;
+}
+.error{
+	border: 1px solid #0f5579;
+    background: #393939; 
+    color: #fff;
+}
+
+/* fim */
+
+/* div cotacao */
+#cot {
+	margin-right: 25px;
+}
+/* fim */

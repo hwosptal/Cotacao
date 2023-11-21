@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conversor e cotação</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="titulo">
+			<h1>Conversor</h1>
+		</div>
+		<div class="main">			
+			<div class="items-container">
+				<div class="input-container">
+					<p id="titulo-conversao">Valor a ser convertido</p>
+					<input class="input" id="valores">
+				</div>
+				<div class="items">
+					<input type="checkbox" onclick="checkboxBTC();">
+					BTC
+					<img src="BTCIMGTRP.png" width="50" height="50">
+				</div>
+				<div class="items">
+					<input type="checkbox" onclick="checkboxLTC();">
+					LTC
+					<img src="LTCIMGTRP.png" width="50" height="50">
+				</div>
+				<div class="items" id="ETH">
+					<input type="checkbox" onclick="checkboxETH();">
+					ETH
+					<img src="ETH.png" width="50" height="70">
+				</div>
+				<div class="paragrafos">
+					<p id="textoResultado"></p>
+					<p id="textoErro"></p>
+				</div>
+			</div>
+			<div class="titulo">
+				<h1>Moedas</h1>
+			</div>
+			<div class="items-container" id="cotacao">
+				<div class="items" id="cot"> 
+					<p>BITCOIN</p>
+					<img src="BTCIMGTRP.png" style="margin-top: 8px;">  
+					<p id="paragrafo"></p>
+				</div>
+				<div class="items" id="cot"> 
+					<p>LITLECOIN</p>
+					<img src="LTCIMGTRP.png" style="margin-top: 6px;"> 
+					<p id="paragrafoLTC"></p>
+				</div>
+				<div class="items" id="cot">  
+					<p id="peth">ETHEREUM</p>
+					<img src="ETH.png" width="60" height="80" style="margin-top: -7px"> 
+					<p id="paragrafoETH"></p>
+				</div>
+			</div>
+		</div>
+	</div> 
+	<script src="crip.js" type="text/javascript"></script>
+	<script src="ltc.js" type="text/javascript"></script>
+	<script src="eth.js" type="text/javascript"></script>
+</body>
+</html>
